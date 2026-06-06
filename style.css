@@ -1,0 +1,120 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Custom Navbar Color */
+.custom-navbar {
+    background-color: #adcae7 !important;
+    padding: 15px 0;
+}
+
+/* Navbar links */
+.custom-navbar .nav-link {
+    color: #000 !important;      /* dark text for readability */
+    font-weight: 600;
+}
+
+/* Hover effect */
+.custom-navbar .nav-link:hover {
+    color: #003366 !important;   /* darker blue on hover */
+}
+
+/* HERO */
+.hero-section {
+    background: linear-gradient(to top, #3b6cf4, #1e3fae);
+}
+
+.hero-box {
+    background: white;
+    border-radius: 12px;
+    max-width: 750px;
+}
+
+/* FEATURES SECTION WITH LINEAR GRADIENT */
+.features-section {
+    background: linear-gradient(to bottom, #3b6cf4, #1e3fae);
+}
+
+/* ABOUT SECTION */
+.about-section {
+    background: #adcae7;
+}
+
+/* FOOTER */
+.footer-section {
+    background: #1a1a1a;
+}
+
+/* FULL PAGE LOGIN GRADIENT */
+.login-bg {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #4d7dfc, #1b2f98);
+}
+
+/* LOGIN CARD */
+.login-card {
+    width: 550px;        
+    border-radius: 15px;
+}
+
+/* TABS */
+.login-tab {
+    font-weight: 600;
+    color: #555;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    padding-bottom: 6px;
+}
+
+.active-tab {
+    color: #1b2f98;
+    border-bottom: 3px solid #1b2f98;
+}
+
+/* INPUTS */
+.login-input {
+    background: #b8b8b8;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.login-input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(77, 125, 252, 0.4);
+}
+
+/* DASHBOARD BACKGROUND */
+.dashboard-bg {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #4d7dfc, #1b2f98);
+    min-height: 100vh;
+}
+
+/* Panels (Left & Right) */
+.dashboard-card {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+}
+
+/* Placeholder for Bar Chart */
+.chart-box {
+    height: 220px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.summary-box {
+    background: #d9f7d9;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
